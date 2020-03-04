@@ -27,13 +27,10 @@ namespace TestPokemon
             switch (playerInput)
             {
                 case 1:
-                    player.pokemon[0] = squirtle;
                     break;
                 case 2:
-                    player.pokemon[0] = charmander;
                     break;
                 case 3:
-                    player.pokemon[0] = bulbasaur;
                     break;
             }
             Menu();
