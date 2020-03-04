@@ -10,15 +10,10 @@ namespace TestPokemon
     {
         public string name;
         public int age;
-        public Pokemon[] pokemon = new Pokemon[6];
         public Character()
         {
             name = "";
             age = 0;
-            for (int i = 0; i < pokemon.Length; i++)
-            {
-                pokemon[i] = new Pokemon();
-            }
         }
 
         public Character(string Name)

@@ -28,20 +28,7 @@ namespace TestPokemon
 
         public static void HealPokemon(Pokemon[] pokemon)
         {
-            for (int i = 0; i < pokemon.Length; i++)
-            {
-                if (pokemon[i].name != "Pokemon Name")
-                {
-                    Console.WriteLine($"Healing: {pokemon[i].name}");
-                    pokemon[i].health = 100;
-                }
-                else
-                {
-                    Console.WriteLine("All done!");
-                    Console.ReadKey();
-                    Game.Menu();
-                }
-            }
+            
         }
     }
 }
